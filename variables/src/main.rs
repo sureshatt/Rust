@@ -1,6 +1,7 @@
 fn main() {
     println!("Variables");
 
+    // Scalar Types
     const THREE_HOURS_IN_SECONDS: u32 = 60 * 60 * 3; // will never be mutable
     
     let mut x = 5; // making x mutable
@@ -31,6 +32,7 @@ fn main() {
     let c:i8 = a / b;
     println!("a: {}, b: {}, c: {}", a, b, c);
 
+    // Compond types
     // accessing tuple data
     let tup = (500, 1.1, 'b');
     println!("tuple 1th: {}", tup.0);
